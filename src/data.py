@@ -6,7 +6,7 @@ import numpy as np
 
 from PIL import Image
 
-import scipy as sp
+
 class LungDataset(torch.utils.data.Dataset):
     def __init__(self, origin_mask_list, origins_folder, masks_folder, transforms=None):
         self.origin_mask_list = origin_mask_list
